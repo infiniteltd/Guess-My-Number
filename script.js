@@ -48,6 +48,7 @@ checkBtn.addEventListener('click', function () {
         } else {
             displayMessage('💥 You lost the game!');
             curScore(0);
+            document.querySelector('body').style.backgroundColor = '#a30303';
         }
     }
 
